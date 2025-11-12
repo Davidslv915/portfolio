@@ -1,0 +1,56 @@
+
+nav,ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+     
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+.presentation{
+    display: flex;
+    justify-content: flex-end;
+    height: 200px;
+}
+
+.competence-container{
+    display: flex;
+    gap: 16px;
+    padding: 32px;
+}
+
+.avantages-clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+
+}
+
+.avantages-clients img{
+    width: 200px;
+    height: auto;
+}
+section h2{
+    display: flex;
+    justify-content: center;
+}
+.eclair{
+    width:100px;
+    height: auto;
+}
+.dernieres-realisations{
+   display: flex;
+ 
+    gap: 16px;
+    padding: 32px;
+    width: 33%;
+}
+
+    .Plat{
+        display: flex;
+        width: 100vw;
+        flex-wrap: wrap;
+    }
