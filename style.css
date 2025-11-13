@@ -1,4 +1,6 @@
-
+nav li{
+    color: white;
+}
 nav,ul{
     display: flex;
     justify-content: space-between;
@@ -12,22 +14,22 @@ nav,ul{
 .presentation{
     display: flex;
     justify-content: flex-end;
-    height: 200px;
+    height: 100%;
+    width: 50%;
 }
 
 .competence-container{
-    display: flex;
-    gap: 16px;
-    padding: 32px;
+   display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
 }
 
 .avantages-clients{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 500px;
-
+    width: 400px;
+    height: 300px;
 }
+
 
 .avantages-clients img{
     width: 200px;
@@ -42,15 +44,135 @@ section h2{
     height: auto;
 }
 .dernieres-realisations{
-   display: flex;
- 
-    gap: 16px;
-    padding: 32px;
-    width: 33%;
+    width: 400px;
 }
 
     .Plat{
         display: flex;
-        width: 100vw;
+        gap: 10px;
         flex-wrap: wrap;
+        justify-content: center;
     }
+.etoiles{
+    height: auto;
+    width: 200px;
+}
+
+.david{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+.visage{
+    height: 50px;
+}
+.bouton{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    height: 60px;
+    width: 160px;
+    color: white;
+    white-space: nowrap;
+}
+.dernieres-realisations img{
+height: 200px;
+width: 300px;
+}
+.navigation{
+    font-size: 20px;
+    list-style: none;
+}
+.avantages-clients img{
+ height: 200px;
+width: 300px;
+}
+body{
+  background-color: rgba(139, 69, 19, 0.5);
+}
+.dernieres-realisations{
+  border: 2px solid black; 
+  border-radius: 10px;      
+  padding: 16px;             
+  background-color: rgba(139, 69, 19, 0.5);   
+}
+
+.avis{
+  border: 2px solid black; 
+  border-radius: 10px;       
+  padding: 16px;             
+  background-color: white;    
+}
+.fin{
+    
+  border: 2px solid black;
+  border-radius: 10px;       
+  padding: 16px;             
+  background-color: rgba(139, 69, 19, 0.5);    
+}
+ nav{
+    border: 2px solid black;
+  border-radius: 10px;       
+  padding: 16px;             
+  background-color:#804300; 
+ }
+ .avantages-clients{
+     border: 2px solid black;
+  border-radius: 10px;       
+  padding: 16px;             
+  background-color: rgba(139, 69, 19, 0.5);
+ }
+.presentation img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.gourmande{
+font-size: 20px;
+}
+.visage{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.avantages-clients img{
+display: flex;
+justify-content: center;
+}
+.depimg{
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: #d2691e;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1rem;
+  color: #333;
+}
+ 
+
+
+
+
+
