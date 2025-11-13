@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 
-h1, h2,h3,h4{
+h1, h2,h3,h4,p{
      font-family: "Pacifico", cursive;
        font-weight: 400;
   font-style: normal;
@@ -179,8 +179,12 @@ p {
   font-size: 1.1rem;
   color: #333;
 }
- 
-
+ .Toubon{
+    padding: 2%;
+ }
+.presentation{
+    padding: 2%;
+}
 
 
 
